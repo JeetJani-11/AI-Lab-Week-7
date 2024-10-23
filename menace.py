@@ -2,7 +2,7 @@ import random
 import math
 
 class MENACE:
-    def _init_(self, learning_rate=0.1, discount_factor=0.9, exploration_rate=0.1):
+    def __init__(self, learning_rate=0.1, discount_factor=0.9, exploration_rate=0.1):
         self.matchboxes = {}
         self.moves_made = []
         self.learning_rate = learning_rate
